@@ -45,13 +45,13 @@ code {
 }
 
 .note.new {
-	background-color: #67d7cc;
+	background-color: #caf7ef;
 }
 
 textarea {
 	border: none;
 	resize: none;
-	background-color: #67d7cc;
+	background-color: #caf7ef;
 }
 
 textarea:focus {
@@ -64,6 +64,7 @@ textarea:focus {
 	border-radius: 15px;
 	padding: 5px 10px 5px 10px;
 }
+
 
 .save:hover {
 	background-color: #ededed;

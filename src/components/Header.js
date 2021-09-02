@@ -3,7 +3,7 @@ import React from 'react';
 const Header = ({ handleToggleDarkMode }) => {
 	return (
 		<div className='header'>
-			<h1>Notes App</h1>
+			<h1>Catatanmu</h1>
 			<button
 				onClick={() =>
 					handleToggleDarkMode(
@@ -12,7 +12,7 @@ const Header = ({ handleToggleDarkMode }) => {
 				}
 				className='save'
 			>
-				Toggle Mode
+				<img src="https://img.icons8.com/material-outlined/24/000000/quick-mode-on--v1.png"/>
 			</button>
 		</div>
 	);
